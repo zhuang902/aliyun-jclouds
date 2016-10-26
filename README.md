@@ -21,7 +21,7 @@ Providers use **Google Auto** to generate services
 
 Then you will find an folder named services from target\classes\META-INF in each modules
 
-If you do not do the operation, an error will happends.
+If you do not do the operation, an error will happends..
 
     key [aliyun-ecs] not in the list of providers or apis
 

@@ -4,7 +4,7 @@ jdk:
   - oraclejdk7
   - openjdk7
 
-script: mvn clean compile -X
+script: mvn clean compile
 
 install: mvn install -Dmaven.test.skip=true -X
 

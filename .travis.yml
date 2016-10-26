@@ -4,9 +4,9 @@ jdk:
   - oraclejdk7
   - openjdk7
 
-script: mvn clean compile
+script: mvn clean compile -X
 
-install: mvn install -Dmaven.test.skip=true
+install: mvn install -Dmaven.test.skip=true -X
 
 branches:
   only:
